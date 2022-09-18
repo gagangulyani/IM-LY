@@ -1,0 +1,42 @@
+<header class="container-fluid">
+  <div class="container text-center" id="searchBox">
+    <h1>Generate Images</h1>
+    <div class="form col-xs-12">
+      <form (ngSubmit)="onSubmit()" #f="ngForm">
+        <input class="col-xs-12" id="searchBar" type="text" placeholder="search" [(ngModel)]="text"/>
+      </form>
+      <span class="glyphicon glyphicon-search col-xs-1" data-toggle="tooltip" title="Search"></span>
+      <!-- <span class="glyphicon bar col-xs-1" id="submit"><b>|</b></span> -->
+      <!-- <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><span class="glyphicon glyphicon-random col-xs-1"  data-toggle="tooltip" title="Random topic"></span></a> -->
+    </div>
+  </div>
+</header>
+
+
+<div class="card-group">
+  <div class="card">
+    <img src="https://www.cnet.com/a/img/resize/e547a2e4388fcc5ab560f821ac170a59b9fb0143/hub/2021/12/13/d319cda7-1ddd-4855-ac55-9dcd9ce0f6eb/unnamed.png?auto=webp&fit=crop&height=1200&width=1200" style="width: 60%" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Option 1</h5>
+      <p class="card-text"><small class="text-muted">Generated just now</small></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://www.cnet.com/a/img/resize/e547a2e4388fcc5ab560f821ac170a59b9fb0143/hub/2021/12/13/d319cda7-1ddd-4855-ac55-9dcd9ce0f6eb/unnamed.png?auto=webp&fit=crop&height=1200&width=1200" style="width: 60%" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Option 2</h5>
+      <p class="card-text"><small class="text-muted">Generated just now</small></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://www.cnet.com/a/img/resize/e547a2e4388fcc5ab560f821ac170a59b9fb0143/hub/2021/12/13/d319cda7-1ddd-4855-ac55-9dcd9ce0f6eb/unnamed.png?auto=webp&fit=crop&height=1200&width=1200" style="width: 60%" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Option 3</h5>
+      <p class="card-text"><small class="text-muted">Generated just now</small></p>
+    </div>
+  </div>
+</div>
+<!-- <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script> -->
+<!-- <script src="script.js"></script> -->
